@@ -43,11 +43,15 @@ section {
 .contactSpan {
   font-size: 20px;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 
 /* 네비게이션 */
 nav {
+  z-index: 99;
   color: black;
-
   position: fixed;
   right: 2%;
   top: 40%;
@@ -64,6 +68,10 @@ nav span {
   padding: 10px;
   border-color: beige;
   background-color: beige;
+}
+nav span:hover {
+  background-color: bisque;
+  cursor: pointer;
 }
 
 /* 첫 번째 섹션 - intro page */
@@ -195,6 +203,8 @@ nav span {
 }
 
 .progress-bar {
+  border-radius: 20px;
+  overflow: hidden;
   margin-left: 30px;
   width: 100%;
   background-color: #eee8aa;
@@ -244,13 +254,13 @@ nav span {
 }
 
 #contact .container #contactMe {
-  width: 60%;
-  background-color: aliceblue;
+  width: 600px;
+  background-color: #333333;
   margin: 0 auto;
   height: 40%;
   margin-top: 200px;
   box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
-  color: black;
+  color: white;
 }
 
 #contact .container #contactMe ul {
@@ -259,9 +269,4 @@ nav span {
 
 #contact .container #contactMe li {
   padding-top: 30px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }

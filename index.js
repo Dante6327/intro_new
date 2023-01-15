@@ -14,6 +14,7 @@ document.querySelector("#navPortfolio").addEventListener("click", (e) => {
 document.querySelector("#navContact").addEventListener("click", (e) => {
   document.querySelector("#contact").scrollIntoView({ behavior: "smooth" });
 });
+
 /* scroll마다 한 페이지씩 이동하기 */
 window.onload = function () {
   const elm = document.querySelectorAll("section");
@@ -22,7 +23,6 @@ window.onload = function () {
     item.addEventListener("mousewheel", function (event) {
       event.preventDefault();
       let delta = 0;
-      console.log(index);
       if (!event) event = window.event;
       if (event.wheelDelta) {
         delta = event.wheelDelta / 120;
@@ -45,7 +45,7 @@ window.onload = function () {
 
       // wheel up : move to previous section
       else {
-        if (elmSelector !== 0) {
+        if (elmSelector !== 0 && elmSelector.id !== "home") {
           try {
             moveTop =
               window.pageYOffset +

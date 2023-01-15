@@ -710,15 +710,23 @@ nav span:hover {
     font-size: 16px;
   }
   #contact .container #contactMe {
-    width: 80%;
+    width: 100%;
+  }
+  #contact .container #contactMe ul {
+    padding-left: 20px;
   }
   #contact .container #contactMe li {
-    padding-top: 14px;
+    padding-top: 10px;
   }
   #contact .container #contents {
     font-size: 10px;
   }
   #contact .container #contactMe {
     margin-top: 150px;
+  }
+  .icon {
+    font-size: 10px;
+    border: 1px solid #61a0f2;
+    background-color: #61a0f2;
   }
 }

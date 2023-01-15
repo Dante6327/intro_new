@@ -14,3 +14,5 @@ document.querySelector("#navPortfolio").addEventListener("click", (e) => {
 document.querySelector("#navContact").addEventListener("click", (e) => {
   document.querySelector("#contact").scrollIntoView({ behavior: "smooth" });
 });
+
+//console.log(document.body.offsetWidth);

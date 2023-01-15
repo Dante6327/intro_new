@@ -629,7 +629,7 @@ nav span:hover {
     font-size: 2em;
   }
   #about {
-    height: 180vh;
+    height: 200vh;
   }
   #about .innerAbout {
     display: block;
@@ -700,10 +700,11 @@ nav span:hover {
   }
   #skills .container .skill .skillSpan {
     width: 200px;
+    font-size: 16px;
   }
   #skills .container .skill img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   .contactSpan {
     font-size: 16px;

@@ -619,6 +619,7 @@ nav span:hover {
     line-height: 30px;
     top: 35%;
     font-size: 0.8em;
+    padding: 10px;
   }
   .container {
     padding: 20px;

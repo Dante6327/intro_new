@@ -132,7 +132,7 @@ nav span:hover {
 }
 
 #about #personalInfo li {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-size: 1.5em;
 }
 
@@ -635,7 +635,7 @@ nav span:hover {
     font-size: 2em;
   }
   #about {
-    height: 200vh;
+    height: 100%;
   }
   #about .innerAbout {
     display: block;
@@ -651,8 +651,8 @@ nav span:hover {
     margin: 0 auto;
   }
   #about #personalInfo li {
-    margin-bottom: 30px;
-    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-size: 1em;
   }
   #about .innerAbout #education {
     width: 80%;
@@ -660,7 +660,7 @@ nav span:hover {
     margin: 0 auto;
   }
   #history h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
   #history h2:before {
     left: -57px;
@@ -684,8 +684,8 @@ nav span:hover {
     padding: 10px 0 0.6em;
   }
   #history li {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   #skills .container .skill {

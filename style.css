@@ -469,6 +469,7 @@ nav span:hover {
     line-height: 40px;
   }
   .container #title {
+    padding-top: 60px;
     font-size: 2em;
   }
   #about .innerAbout {
@@ -557,6 +558,9 @@ nav span:hover {
 }
 /* 모바일 : ~576 */
 @media screen and (min-width: 0px) and (max-width: 576px) {
+  body {
+    padding-top: 60px;
+  }
   nav {
     left: 0px;
     width: 100%;
@@ -618,7 +622,7 @@ nav span:hover {
     color: beige;
     line-height: 30px;
     top: 35%;
-    font-size: 0.8em;
+    font-size: 0.6em;
     padding: 10px;
   }
   .container {
@@ -627,6 +631,7 @@ nav span:hover {
   }
 
   .container #title {
+    padding-top: 60px;
     font-size: 2em;
   }
   #about {
